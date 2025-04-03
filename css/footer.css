@@ -1,59 +1,61 @@
-footer{
+footer {
   padding: 100px;
+  
 }
+
 .silver_bg {
   background-color: #cdd2dc;
   display: flex;
   justify-content: center;
   padding: 20px;
 
- }
+}
 
 .footer-logo {
   max-width: 400px
 }
 
-.footer-txt   {
+.footer-txt {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   font-size: 18px;
-  }
+}
 
 .footer-container {
- display: flex;
+  display: flex;
   justify-content: space-between;
   align-items: flex-start;
   padding: 20px;
-  
+
 }
-.future-links {
-  width: 48%;  
-  background-color: #f8f8f8;
-  padding: 20px;
-  border-radius: 10px;
-}
-.footers-left > p {
+
+.footers-left>p {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
+
 }
+
 .search {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
-.search-foot{
+
+.search-foot {
   padding: 10px;
   width: 65%;
 }
-.sign-up{
+
+.sign-up {
+  border: solid;
   padding: 10px;
   background-color: black;
   color: whitesmoke;
   width: 35%;
-  
 }
+
 .sign-up:hover {
   background-color: #7e7981;
   color: #ffffff;
@@ -67,45 +69,21 @@ footer{
   display: flex;
   justify-content: center;
   gap: 10px;
-  
+
 }
-.socials a{
+
+.socials a {
   color: #000;
   text-decoration: none;
   font-size: 20px;
-  
-}
-.socials >a > .fb:hover {
- color: #1e1afd;
- transition: color 0.5s ease;
-
-}
-.socials >a > .ig:hover {
- color: #ff733c;
- transition: color 0.5s ease;
-
-}
-.socials >a > .p:hover {
- color: #ffcb8f;
- transition: color 0.5s ease;
-
-}
-.socials >a > .x:hover {
- color: #cfcfcf;
- transition: color 0.5s ease;
 
 }
 
-.socials a:hover {
-  color: #474747;
-  transition: color 0.6s ease;
-  cursor: pointer;
-}
 
 .footer-center {
   margin-bottom: 20px;
   top: 20px;
-   text-align: center;
+  text-align: center;
   padding: 20px;
   width: 300px;
   right: 20px;
@@ -117,11 +95,13 @@ footer{
   flex-direction: column;
   gap: 15px;
 }
+
 .care {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 10px;
 }
+
 .footer-links {
   display: flex;
   flex-direction: column;
@@ -129,14 +109,15 @@ footer{
 }
 
 .footer-links a {
-  display:flex;
+  display: flex;
   text-decoration: none;
   font-size: 16px;
   transition: color 0.3s;
   color: #000;
 }
+
 .footer-links a:hover {
-  color: #55535c;
+  color: salmon;
   transition: color 0.8s ease;
 }
 
@@ -155,17 +136,18 @@ footer{
   padding: 8px 15px;
   font-size: 16px;
   border-radius: 5px solid black;
-  margin: 5px ;
+  margin: 5px;
   cursor: pointer;
   width: 100%;
- 
+
 }
+
 .btn:hover {
   background-color: #474747;
   color: #fff;
   transition: color 0.8s ease;
   transition: background-color 0.8s ease;
-  
+
 }
 
 .accessibility {
@@ -197,12 +179,12 @@ footer{
 
 }
 
-.copyright a  {
+.copyright a {
   text-decoration: none;
-  color:#796777;
+  color: #796777;
   position: relative;
   text-indent: 1.6em;
-  
+
 }
 
 .links-pay a:after {
@@ -218,7 +200,31 @@ footer{
   transform: translateY(-50%);
 }
 
-.links-pay > a:last-child::after {
+.links-pay>a:last-child::after {
   display: none;
 }
 
+
+
+.bank {
+  display: flex;
+  width: 100%;
+  margin: 20px 0;
+  height: 15%;
+  width: 15%;
+  margin: 15px 0;
+}
+
+.bank > img {
+  width: 500%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-right: 5px;
+
+  background-color: #fff;
+}
+
+.bank > img:first-child:hover {
+  scale: 0.8;
+}
